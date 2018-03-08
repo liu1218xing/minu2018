@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?eratp9');
+  src:  url('fonts/icomoon.eot?eratp9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?eratp9') format('truetype'),
+    url('fonts/icomoon.woff?eratp9') format('woff'),
+    url('fonts/icomoon.svg?eratp9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.toolbar .icon-align-top:before {
+  content: "\e900";
+}
+.toolbar .icon-wechat:before {
+  content: "\e901";
+}
+.toolbar .icon-envelop:before {
+  content: "\e945";
+}
+.toolbar .icon-mobile:before {
+  content: "\e958";
+}
+.toolbar{
+	position:fixed;
+	right: 2px;
+	bottom: 130px;
+}
+.toolbar .toolbar-item{
+	position: relative;
+	display: block;
+	height: 50px;
+	width: 50px;
+	padding-top: 1px;
+}
+.toolbar .toolbar-icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	/*border: 1px blue solid;*/
+	/*background-color: #d0d6d9;*/
+	background-color: #bb110c;
+	text-align: center;
+	line-height: 44px;
+	transition: top 1s;
+}
+.toolbar .toolbar-btn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+}
+.toolbar .toolbar-text{
+	position: absolute;
+	top: 52px;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	padding-top: 12px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 5px;
+	/*background-color: #98a1a6;*/
+	background-color: #bb110c;
+	text-align: center;
+	line-height: 1.2;
+	transition: top 1s;
+}
+.toolbar .icon-wechat{
+	
+}
+.toolbar .toolbar-layer{
+	position: absolute;
+	right: 50px;
+	bottom: -72px;
+	width: 172px;
+	background-image: url("../images/weixin-right.png");
+	background-repeat: no-repeat;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	/*transform-origin: 95% 95%; */
+	/*transform: scale(0.01);*/
+	transition: all 1s;
+}
+.toolbar .toolbar-layer-weixin{
+	height: 212px;
+}
+.toolbar .toolbar-item:hover .toolbar-text{
+	top: 0;
+}
+.toolbar .toolbar-item:hover .toolbar-icon{
+	top: 52px;
+}
+.toolbar .toolbar-item:hover .toolbar-layer{
+	opacity: 1;
+	filter: alpha(opacity=1);
+	/*transform: scale(1);*/
+	transition: all 1s;
+}
+
+.toolbar .toolbar-layer-tel{
+	position: absolute;
+	height: 40px;
+	color: #000;
+	font-size: 14px;
+	width: 200px;
+	top: 8px;
+	/*bottom: 10px;*/
+	right: 60px;
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	/*border: 1px red solid;*/
+	line-height: 40px;
+}
