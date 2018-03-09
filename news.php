@@ -177,9 +177,14 @@ $description_def ="4S店工作服,工作服定做,销售工作服,酒店工作�
         </div>
     </div>
     <!-- nav end -->
-    <div class="minupro homepage-panel minu-news hidden-xs" id="minupro">
-      <!-- <img src="images/minupro.jpg"> -->
+    <div class="container-fluid">
+      <div class="row minupro homepage-panel minu-news" id="minucase">
+        <img src="/images/minu-news.jpg">
+      </div>
     </div>
+    <!-- <div class="minupro homepage-panel minu-news hidden-xs" id="minupro"> -->
+      <!-- <img src="images/minupro.jpg"> -->
+    <!-- </div> -->
     
     <!-- 产品部分内容 start -->
     <div class="container g-bd-ser-newpro g-bd-news">

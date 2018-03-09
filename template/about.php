@@ -118,12 +118,16 @@ $leftParentCates=getAllParentCate();
 	
 	
 	
-	
-    <div class="minupro homepage-panel minu-about" id="minupro">
-      <!--<img src="images/minupro.jpg">-->
+	<div class="container-fluid">
+    <div class="row minupro homepage-panel minu-about" id="minupro">
+      <img src="/images/minu-about.jpg">
+    </div>
+  </div>
+    <!-- <div class="minupro homepage-panel minu-about" id="minupro">
+      
 	 
 	  
-    </div>
+    </div> -->
 	
 
     

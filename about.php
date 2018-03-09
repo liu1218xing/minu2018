@@ -8,6 +8,11 @@ $leftParentCates=getAllParentCate();
 // if(!($proImgs &&is_array($proImgs))){
 //   alertMes("商品图片错误", "index.php");
 // }
+if ($id==6) {
+  $about_imgname="minu-about.jpg";
+}else{
+  $about_imgname="minupro-oth.jpg";
+}
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -168,13 +173,17 @@ $leftParentCates=getAllParentCate();
 	
 	
 	
+	<div class="container-fluid">
+    <div class="row minupro homepage-panel minu-about" id="minupro">
+      <img src="/images/<?php echo $about_imgname; ?>">
+    </div>
+  </div>
 	
-	
-    <div class="minupro homepage-panel minu-about hidden-xs" id="minupro">
+    <!-- <div class="minupro homepage-panel minu-about" id="minupro"> -->
       <!--<img src="images/minupro.jpg">-->
 	 
 	  
-    </div>
+    <!-- </div> -->
 	
 
     

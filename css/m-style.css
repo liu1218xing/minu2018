@@ -411,9 +411,7 @@ text-decoration: underline;
 	border-bottom: 1px #e1e1e1 solid;
     text-align: center;
 }
-.hot-pro-intro .hot-pro-list img{
-    width: 100%;
-}
+
 .hot-pro .product-img img{
     height: 204px;
     width: 165px;
@@ -889,11 +887,15 @@ text-decoration: underline;
     
     text-align: center;
     background: #b6c0cc;
-    height: 350px;
-    background: url('../images/minupro-oth.jpg') no-repeat;
+    height: 100%;
+    /*background: url('../images/minupro-oth.jpg') no-repeat;*/
     background-position: center;
     background-size: cover;
 }
+ .minupro img{
+    height: 100%;
+    width: 100%;
+ }
 .minu-product{
     background: url('../images/minu-product.jpg') no-repeat;
 }
@@ -903,9 +905,10 @@ text-decoration: underline;
 .minu-case{
     background: url('../images/minu-case.jpg') no-repeat;
 }
-.minu-about{
+/*.minu-about{
     background: url('../images/minu-about.jpg') no-repeat;
-}
+
+}*/
 
 
 
@@ -943,10 +946,15 @@ text-decoration: underline;
 .m-news .looksum{
     font-size: 12px;
 }
-.m-news .m-news-pic img{
+/*.m-news .m-news-pic img{
     display: inline-block;
     width: 200px;
     height: 123px;
+}*/
+.m-news .m-news-pic img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 .m-news .m-news-tit{
     display: inline-block;
@@ -1140,8 +1148,26 @@ text-decoration: underline;
     width: 260px;
         height: 321px;
 }
+.minupro {
+    
+        text-align: center;
+        background: #b6c0cc;
+        height: 350px;
+        /*background: url('../images/minupro-oth.jpg') no-repeat;*/
+        background-position: center;
+        background-size: cover;
+    }
 }
-
+/*//如果文档宽度小于 300 像素则修改背景演示*/
+@media screen and (max-width: 768px){
+    .hot-pro-intro .hot-pro-list img{
+        width: 100%;
+    }  
+    .m-about .m-abtou-list img{
+        height: 100%;
+        width: 100%;
+    }  
+}
 
 /*footer*/
 .lfooter ul {
@@ -1149,9 +1175,7 @@ text-decoration: underline;
     padding-right: 66px;
 
 }
-.lfooter { width:100%; height:70px; background-color:#bb110c; position:fixed; bottom:0px;  }
-.lfooter ul li { width:25%; height:auto; float:left; text-align:center; padding:10px 0px; }
-.lfooter ul li a { color:#FFF; line-height:12px; font-size:12px;}
+
 .navbar-small .navbar-collapse {
     /*background-color: #a9413d;*/
      background-color: #bb110c;
@@ -1205,3 +1229,12 @@ text-decoration: underline;
     height:3px;
     width:26px;
 }
+
+.m-about .m-abtou-list iframe{
+    height: 100%;
+    width:100%;
+}
+.lfooter { width:100%; height:70px; background-color:#bb110c; position:fixed; bottom:0px;  }
+.lfooter ul li { width:25%; height:auto; float:left; text-align:center; padding:10px 0px; }
+.lfooter ul li a { color:#FFF; line-height:12px; font-size:12px;}
+.lfooter img{width: 30px;height: 30px;}

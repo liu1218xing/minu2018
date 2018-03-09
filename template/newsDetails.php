@@ -289,8 +289,8 @@ s.parentNode.insertBefore(hm, s);
         </div>
     </footer>
     <!--footer开始-->
-  <div class="container hidden-lg">
-    <div class="row lfooter">
+  <div class=" hidden-lg">
+    <div class=" lfooter">
       <ul>
         <li><a href="/"><img src="/images/dbsy.png" width="30" height="30" /><br />网站首页</a></li>
         <li id="yidongtel"><a href="tel:02032364991"><img src="/images/dbdh.png" width="30" height="30" /><br />电话咨询</a></li>

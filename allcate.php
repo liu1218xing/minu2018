@@ -173,9 +173,14 @@ s.parentNode.insertBefore(hm, s);
     </div>
     <!-- nav end -->
     <!-- banner 图片 -->
-    <div class="minupro homepage-panel minu-product hidden-xs" id="minupro">
-      <!-- <img src="images/minupro.jpg"> -->
+    <div class="container-fluid">
+      <div class="row minupro homepage-panel minu-allcate" id="minucase">
+        <img src="/images/minu-case.jpg">
+      </div>
     </div>
+    <!-- <div class="minupro homepage-panel minu-product hidden-xs" id="minupro"> -->
+      <!-- <img src="images/minupro.jpg"> -->
+    <!-- </div> -->
     <!-- 产品部分内容 start -->
     <div class="container g-bd-ser-newpro">
       <div class="row">
